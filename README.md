@@ -2,6 +2,8 @@
 
 A colorful, bilingual 21-card trick. Keep a card in mind, select its row three times, and see it revealed. Includes a random classic playing deck and 21 illustrated fantasy friends, English and Arabic with a complete RTL layout, keyboard controls, optional synthesized sound, and reduced-motion support.
 
+**[Play online · العب الآن](https://asalhi.github.io/CardsTrick21/)**
+
 ## Run locally
 
 Requires Node.js. No dependencies or build step.
