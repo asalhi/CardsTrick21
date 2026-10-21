@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="A little mind magic. Pick a playing card or fantasy friend, choose its row three times, and discover the 21-card trick. Play in English or Arabic.">
+  <title>Twenty One — A little mind magic</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Manrope:wght@400;500;600;650;700;750;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Twenty One home"><span class="brand-mark">✦</span><span>twenty<span class="brand-one">one</span><span class="brand-period">.</span></span></a>
+    <div class="header-actions">
+      <button class="plain-button how-button" id="how-button"><span class="help-icon">?</span><span data-i18n="how">How to play</span></button>
+      <span class="header-divider"></span>
+      <button class="language-button" id="language-button" aria-label="Switch to Arabic"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span>العربية</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="intro-copy">
+        <div class="eyebrow"><span class="tiny-star">✦</span><span data-i18n="eyebrow">A LITTLE MIND MAGIC</span></div>
+        <h1 id="intro-title"><span data-i18n="headline1">Your card.</span><br><span class="headline-accent" data-i18n="headline2">Our little secret.</span><span class="title-spark">✧</span></h1>
+        <p class="intro-description" data-i18n="description">21 cards. Three turns. One impossible little reveal.<br>Think of a card, and let a little magic find it.</p>
+        <div class="intro-tags"><span><i class="status-dot"></i><span data-i18n="no-signup">No sign-up. Just wonder.</span></span><span class="tag-separator">·</span><span data-i18n="time">Takes about a minute</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <span class="art-star art-star-one">✦</span><span class="art-star art-star-two">✧</span><span class="art-star art-star-three">✦</span>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-card hero-card-back"><div class="card-back-design"><span>✦</span></div></div>
+        <div class="hero-card hero-card-front"><span class="hero-rank">A<small>♥</small></span><span class="hero-heart">♥</span><span class="hero-rank hero-rank-bottom">A<small>♥</small></span></div>
+        <span class="magic-note" data-i18n="hero-note">a little ✦ extraordinary</span>
+        <span class="art-dot art-dot-one"></span><span class="art-dot art-dot-two"></span>
+      </div>
+    </section>
+
+    <section class="game-shell" aria-label="21-card game">
+      <div class="world-toolbar">
+        <div class="world-switch" role="group" aria-label="Card world">
+          <button id="classic-mode" class="world-button active" aria-pressed="true"><span class="world-symbol">♠</span><span data-i18n="classic">Playing cards</span></button>
+          <button id="fantasy-mode" class="world-button" aria-pressed="false"><span class="world-symbol fantasy-symbol">✧</span><span data-i18n="fantasy">Fantasy friends</span><span class="new-badge" data-i18n="new">NEW</span></button>
+        </div>
+        <div class="game-tools">
+          <button id="sound-button" class="icon-button" aria-label="Turn sound on" aria-pressed="false"></button>
+          <button id="restart-button" class="reset-button"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6"/></svg><span data-i18n="restart">Start over</span></button>
+        </div>
+      </div>
+
+      <div class="game-content">
+        <div class="game-heading">
+          <div>
+            <div class="section-eyebrow" id="section-eyebrow">THE CLASSIC, WITH A TWIST</div>
+            <h2 id="game-title">Keep one card in mind.</h2>
+            <p id="game-description">Pick any card below. Remember it, but don’t tell us just yet.</p>
+          </div>
+          <div class="progress" id="progress" aria-label="Three rounds"><span class="progress-step" data-step="1">1</span><span class="progress-line"></span><span class="progress-step" data-step="2">2</span><span class="progress-line"></span><span class="progress-step" data-step="3">3</span><span class="progress-spark">✦</span></div>
+        </div>
+        <div class="board-wrap" id="board-wrap"><div id="board" class="board" aria-label="Three rows of seven cards"></div></div>
+        <div id="reveal" class="reveal" hidden></div>
+        <div class="game-bottom" id="game-bottom">
+          <p class="privacy-note"><span>✧</span><span id="bottom-hint">Keep it a secret. The magic works best that way.</span></p>
+          <button class="primary-button" id="ready-button"><span data-i18n="ready">I’ve got my card</span><span class="button-arrow">↗</span></button>
+          <span class="round-pill" id="round-pill" hidden></span>
+        </div>
+      </div>
+      <div class="game-footer"><span class="small-spark">✦</span><span data-i18n="game-footer">A classic trick. A curious mind. A moment of magic.</span><span class="footer-card-icons">♠ ♥ ♣ ♦</span></div>
+    </section>
+
+    <section class="steps-strip" aria-label="How the magic works">
+      <div class="mini-step"><span class="step-number step-one">01</span><div><h3 data-i18n="step1-title">Make it a secret</h3><p data-i18n="step1-copy">Choose a card in your mind.</p></div></div>
+      <span class="step-connector">⤳</span>
+      <div class="mini-step"><span class="step-number step-two">02</span><div><h3 data-i18n="step2-title">Point us in a direction</h3><p data-i18n="step2-copy">Tell us its row, three times.</p></div></div>
+      <span class="step-connector">⤳</span>
+      <div class="mini-step"><span class="step-number step-three">03</span><div><h3 data-i18n="step3-title">Meet a little magic</h3><p data-i18n="step3-copy">Watch your card find its way back.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span data-i18n="footer">Made for your inner “how did that happen?”</span><span class="footer-love">A little wonder goes a long way. <span>✦</span></span></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <dialog id="how-dialog" aria-labelledby="dialog-title"><button class="dialog-close icon-button" id="close-dialog" aria-label="Close">×</button><span class="dialog-star">✦</span><h2 id="dialog-title" data-i18n="dialog-title">A secret worth keeping.</h2><p data-i18n="dialog-intro">No tapping your card. No telling us its name. Just a little imagination.</p><ol><li data-i18n="dialog-step1">Choose any of the 21 cards and remember it. Press “I’ve got my card” when you’re ready.</li><li data-i18n="dialog-step2">Find your card and choose its row. The cards will move, so look carefully each time.</li><li data-i18n="dialog-step3">Choose its row three times in total. Then let us reveal your card!</li></ol><p class="dialog-tip" data-i18n="dialog-tip">Try Fantasy friends for a whole new world of characters. You can switch languages at any time.</p><button id="dialog-play" class="primary-button" data-i18n="lets-play">Let’s make some magic</button></dialog>
+  <div class="confetti-container" id="confetti" aria-hidden="true"></div>
+</body>
+</html>

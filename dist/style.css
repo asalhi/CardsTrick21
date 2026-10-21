@@ -1,0 +1,200 @@
+:root{--ink:#292538;--muted:#85818e;--paper:#f7f5ef;--purple:#7048d7;--purple-dark:#5634b5;--line:#e8e5e0;--lime:#def297;--font:'DM Sans',sans-serif;--heading:'Manrope',sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);font-size:14px;-webkit-font-smoothing:antialiased}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}button:disabled{cursor:default}button:focus-visible,a:focus-visible{outline:3px solid #9a77e8;outline-offset:5px}button{color:inherit}a{color:inherit;text-decoration:none}svg{width:20px;height:20px;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}button{border:0;background:none}button, a{touch-action:manipulation}[hidden]{display:none!important}
+.site-header{max-width:1240px;margin:0 auto;padding:28px 28px 22px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;font-family:var(--heading);font-size:26px;letter-spacing:-1.4px;font-weight:800;direction:ltr}.brand-mark{background:var(--purple);color:var(--lime);width:36px;height:36px;display:grid;place-items:center;border-radius:11px;font-size:33px;line-height:1;letter-spacing:0}.brand-one{font-weight:500}.brand-period{color:var(--purple)}.header-actions{display:flex;gap:23px;align-items:center}.plain-button,.language-button{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:550;padding:8px 0}.help-icon{width:17px;height:17px;border:1.4px solid currentColor;border-radius:50%;font-size:11px;display:grid;place-items:center}.header-divider{width:1px;height:18px;background:#ddd8d3}.language-button{font-family:'Noto Sans Arabic',var(--font);gap:9px}.language-button svg{width:17px;height:17px}
+main{max-width:1184px;margin:auto;padding:0 24px}.intro{min-height:288px;display:grid;grid-template-columns:1.3fr 1fr;align-items:center;padding:27px 18px 32px}.eyebrow{font-size:10px;font-weight:750;letter-spacing:2px;color:var(--purple);display:flex;align-items:center;gap:7px}.tiny-star{font-size:17px;line-height:1}.intro h1{font-family:var(--heading);font-weight:800;letter-spacing:-2.6px;font-size:52px;line-height:1.12;margin:14px 0 14px;position:relative;display:inline-block}.headline-accent{color:var(--purple)}.title-spark{display:inline-block;font-size:40px;color:#b29cda;margin-inline-start:17px;vertical-align:top;transform:translateY(-9px)}.intro-description{font-size:13px;line-height:1.8;color:#77737e;margin:0}.intro-tags{display:flex;align-items:center;gap:10px;font-size:10px;margin-top:17px;color:#8c8790}.intro-tags>span:first-child{display:flex;align-items:center;gap:6px}.status-dot{height:5px;width:5px;display:inline-block;background:#78a77a;border-radius:50%}.tag-separator{color:#bab4bd}.hero-art{width:330px;height:245px;position:relative;justify-self:center;isolation:isolate;direction:ltr}.hero-art:before{content:'';position:absolute;width:240px;height:210px;border-radius:50%;background:#e9e1f3;filter:blur(17px);top:20px;left:50px;z-index:-1;opacity:.7}.hero-card{width:112px;height:158px;position:absolute;border-radius:11px;top:25px;box-shadow:0 9px 20px #36205c19}.hero-card-back{left:76px;transform:rotate(-18deg);background:var(--purple);padding:8px;border:4px solid #faf8ff}.card-back-design{border:1px solid #cbb6f17a;position:relative;width:100%;height:100%;border-radius:4px;display:grid;place-items:center;background:repeating-conic-gradient(#ffffff0a 0 25%,transparent 0 50%) 0/13px 13px}.card-back-design:before{content:'';position:absolute;inset:15px;border:1px solid #c9b8ef;transform:rotate(0deg);border-radius:50%}.card-back-design span{color:var(--lime);font-size:51px;z-index:1}.hero-card-front{left:151px;top:37px;transform:rotate(15deg);background:#fffdf9;border:1px solid #e9e0dd;color:#e96b65;display:grid;place-items:center}.hero-rank{position:absolute;font-weight:750;font-size:18px;top:8px;left:9px;line-height:1}.hero-rank small{display:block;font-size:16px;margin-top:3px}.hero-rank-bottom{top:auto;left:auto;bottom:8px;right:9px;transform:rotate(180deg)}.hero-heart{font-size:61px;line-height:1;transform:translateY(-3px)}.art-star{position:absolute;z-index:3}.art-star-one{top:16px;left:26px;color:#9d83ce;font-size:29px;transform:rotate(12deg)}.art-star-two{top:70px;right:14px;color:#74a68e;font-size:40px}.art-star-three{bottom:15px;left:77px;color:#dba272;font-size:16px}.orbit{width:320px;height:125px;position:absolute;border:1px solid #cdc1dd85;border-radius:50%;transform:rotate(-18deg);top:71px;left:1px;z-index:-1}.orbit-two{transform:rotate(38deg);height:155px;top:49px;left:11px;border-style:dashed;opacity:.5}.art-dot{position:absolute;width:7px;height:7px;border-radius:50%;background:#c4d99b}.art-dot-one{top:20px;right:73px}.art-dot-two{bottom:57px;left:21px;width:5px;height:5px;background:#d3bde5}.magic-note{position:absolute;bottom:6px;left:119px;font-family:var(--heading);font-size:10px;transform:rotate(-7deg);color:#8f789f;white-space:nowrap}
+.game-shell{background:#fffefa;border:1px solid #e6e2dd;border-radius:20px;box-shadow:0 10px 35px #40303004;overflow:hidden}.world-toolbar{display:flex;align-items:center;justify-content:space-between;padding:14px 25px;border-bottom:1px solid var(--line);background:#fbfaf7}.world-switch{display:flex;gap:5px;padding:4px;background:#eeece7;border-radius:10px}.world-button{display:flex;align-items:center;justify-content:center;gap:7px;border-radius:7px;padding:9px 15px;color:#8b8493;font-size:12px;font-weight:600;transition:background .2s,box-shadow .2s,color .2s;white-space:nowrap}.world-button.active{background:#fffefa;color:#51435e;box-shadow:0 2px 4px #00000008}.world-symbol{font-size:19px;line-height:1;color:var(--purple)}.fantasy-symbol{font-size:21px;color:#b392c0}.world-button.active .fantasy-symbol{color:#bf6c9e}.new-badge{font-size:7px;letter-spacing:.7px;background:#e6dff2;padding:3px 4px;color:#9a80b9;border-radius:3px}.game-tools{display:flex;gap:17px;align-items:center}.icon-button{display:grid;place-items:center;width:30px;height:30px;border-radius:8px;color:#948b9d}.icon-button:hover{background:#ece6f4}.icon-button svg{width:18px;height:18px}.reset-button{display:flex;align-items:center;gap:6px;font-size:11px;color:#8b8490;padding:7px 0}.reset-button svg{width:15px;height:15px}.reset-button:hover{color:var(--purple)}.game-content{padding:25px 27px 17px;min-height:589px}.game-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:22px}.section-eyebrow{font-size:8px;letter-spacing:1.7px;font-weight:750;color:#aba1b4}.game-heading h2{font:750 25px/1.4 var(--heading);letter-spacing:-.8px;margin:6px 0 2px}.game-heading p{font-size:11px;color:#8e8793;margin:0;line-height:1.7}.progress{display:flex;align-items:center;padding-inline-end:4px;gap:7px;direction:ltr}.progress-step{width:25px;height:25px;display:grid;place-items:center;border:1px solid #e5deed;color:#b0a7bc;border-radius:50%;font-size:10px;transition:all .3s}.progress-step.current{background:var(--purple);border-color:var(--purple);color:white;box-shadow:0 0 0 4px #f1eafc}.progress-step.done{background:#ece6f7;border-color:#ece6f7;color:var(--purple)}.progress-line{width:15px;height:1px;background:#e9e2f1}.progress-spark{color:#b5a5c9;font-size:21px;margin-inline-start:4px}.board{display:flex;flex-direction:column;gap:12px}.card-row{display:grid;grid-template-columns:38px minmax(0,1fr) 139px;gap:13px;align-items:center;padding:12px 13px;border-radius:12px;position:relative;transition:background .2s,transform .2s}.card-row:nth-child(1){--row-ink:#8260ac;--row-pale:#f2ebfb;--row-button:#e9def7;background:#f2ecfa}.card-row:nth-child(2){--row-ink:#b27d50;--row-pale:#fcf0e3;--row-button:#f7e6cf;background:#fcf1e5}.card-row:nth-child(3){--row-ink:#5a9279;--row-pale:#e9f6ee;--row-button:#d8eddf;background:#edf6ee}.row-marker{display:flex;flex-direction:column;align-items:center;gap:4px;color:var(--row-ink)}.row-marker small{font-size:7px;font-weight:700;letter-spacing:1px;text-transform:uppercase}.row-marker strong{font-family:var(--heading);font-size:18px;font-weight:650;line-height:1}.row-cards{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:9px;direction:ltr;perspective:1000px}.playing-card,.fantasy-card{aspect-ratio:5/7;min-width:0;position:relative;border-radius:7px;transition:transform .2s;animation:deal-in .4s both;animation-delay:calc(var(--index)*22ms);box-shadow:0 2px 3px #3f2c4210;user-select:none}.playing-card{background:#fffefa;border:1px solid #dcd7da;overflow:hidden;color:#3b334e}.playing-card.hearts{color:#e3676c}.playing-card.diamonds{color:#db6e67}.playing-card.clubs{color:#466e69}.playing-card:hover,.fantasy-card:hover{transform:translateY(-5px) rotate(-1deg);z-index:2}.card-corner{position:absolute;top:5px;left:6px;display:flex;flex-direction:column;align-items:center;line-height:1;font:700 clamp(9px,1.05vw,14px)/1 var(--font)}.card-corner small{font-size:.85em;line-height:1;margin-top:2px}.card-corner.bottom{top:auto;left:auto;right:6px;bottom:5px;transform:rotate(180deg)}.card-pips{position:absolute;inset:20% 21%;direction:ltr}.pip{position:absolute;transform:translate(-50%,-50%);font-size:clamp(12px,1.7vw,23px);line-height:1}.pip.upside-down{transform:translate(-50%,-50%) rotate(180deg)}.ace-pip{display:grid;place-items:center;height:100%;font-size:clamp(25px,3vw,43px)}.face-art{position:absolute;inset:17% 19%;border:1px solid currentColor;border-radius:28% 28% 25% 25%;opacity:.87;display:flex;align-items:center;justify-content:center;flex-direction:column;background:linear-gradient(145deg,#f9edda66,#ddd2ef30)}.face-art:before,.face-art:after{content:'·';font-size:18px;position:absolute;left:4px;top:32%}.face-art:after{left:auto;right:4px}.face-crown{font-size:clamp(13px,2vw,25px);line-height:1}.face-letter{font:700 clamp(16px,2.4vw,34px)/1.05 Georgia,serif}.face-suit{font-size:clamp(10px,1.6vw,19px)}.choose-row{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--row-button);color:var(--row-ink);border:1px solid #ffffff6b;border-radius:8px;padding:12px 7px;font-size:10px;font-weight:650;line-height:1.5;transition:background .2s,transform .2s,box-shadow .2s}.choose-row .row-arrow{font-size:17px;font-weight:400}.choose-row:not(:disabled):hover{transform:translateY(-2px);box-shadow:0 3px 0 #00000010;filter:saturate(1.3)}.choose-row:disabled{opacity:.58}.waiting-label{font-size:10px;color:var(--row-ink);opacity:.75;text-align:center;display:flex;align-items:center;justify-content:center;gap:7px}.waiting-label span:first-child{font-size:17px}.game-bottom{display:flex;align-items:center;justify-content:space-between;min-height:60px;padding-top:15px;gap:15px}.privacy-note{font-size:10px;color:#a097a6;display:flex;align-items:center;gap:7px;margin:0;line-height:1.6}.privacy-note>span:first-child{font-size:19px;color:#b8a9cc}.primary-button{background:var(--purple);color:white;border-radius:9px;padding:12px 21px;display:inline-flex;align-items:center;justify-content:center;gap:26px;font-size:12px;font-weight:600;white-space:nowrap;box-shadow:0 3px 0 #5b37b7;transition:background .2s,transform .2s}.primary-button:hover{background:var(--purple-dark);transform:translateY(-1px)}.button-arrow{font-size:18px;font-weight:400;line-height:1}.round-pill{font-size:10px;background:#f0eafa;padding:7px 13px;border-radius:20px;color:var(--purple);white-space:nowrap}.game-footer{padding:13px 26px;background:#fbfaf6;border-top:1px solid #efede7;display:flex;align-items:center;gap:7px;font-size:9px;color:#a9a1ac}.small-spark{color:#c2acdf;font-size:13px}.footer-card-icons{margin-inline-start:auto;font-size:12px;letter-spacing:5px;color:#b9afc0;direction:ltr}.steps-strip{display:flex;align-items:center;justify-content:space-between;padding:29px 25px 32px;gap:16px}.mini-step{display:flex;align-items:center;gap:12px}.step-number{width:34px;height:34px;border-radius:11px;display:grid;place-items:center;font-family:var(--heading);font-size:10px;font-weight:750}.step-one{background:#e9e1f4;color:#9674bc}.step-two{background:#f4e7d7;color:#bf946c}.step-three{background:#e2ecdf;color:#83a07c}.mini-step h3{font-size:10px;font-weight:650;margin:0 0 4px}.mini-step p{font-size:9px;color:#a29aa5;margin:0}.step-connector{font-size:29px;color:#c6bdca;transform:rotate(-9deg);margin-top:-9px}.site-footer{max-width:1184px;display:flex;justify-content:space-between;margin:0 auto;padding:18px 26px 23px;border-top:1px solid #e5e0da;font-size:9px;color:#aca3af}.footer-love span{color:#a590c0;margin-inline-start:6px}
+.fantasy-card{border:3px solid #fffefa;background:#e9e1f4;overflow:hidden;display:flex;flex-direction:column}.fantasy-portrait{background-image:url('./assets/fantasy-atlas.png');background-size:700% 300%;aspect-ratio:1;width:100%;flex-shrink:0}.fantasy-name{font-size:clamp(6px,.7vw,9px);font-weight:600;display:grid;place-items:center;flex:1;min-height:16px;color:#67516f;text-align:center;line-height:1.2;padding:2px 1px}.is-fantasy .card-row:nth-child(1){background:#eee9fc}.is-fantasy .card-row:nth-child(2){background:#fff0e6}.is-fantasy .card-row:nth-child(3){background:#e9f4ef}.is-fantasy .game-heading h2{color:#64428f}.board.is-shuffling .playing-card,.board.is-shuffling .fantasy-card{animation:gather .36s both;animation-delay:calc(var(--index)*10ms)}
+.reveal{min-height:417px;text-align:center;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px 0 18px;background:radial-gradient(ellipse at center,#eee5fb88,transparent 62%)}.reveal-orbit{position:absolute;width:280px;height:210px;border:1px dashed #cbb7e4;top:30px;border-radius:50%;transform:rotate(-22deg);pointer-events:none}.reveal-spark{position:absolute;color:#ac92c6;font-size:30px;top:54px;left:calc(50% - 125px);animation:pulse 3s infinite}.reveal-spark.second{top:160px;left:calc(50% + 95px);font-size:20px;color:#d6a078;animation-delay:.7s}.reveal-card-wrap{width:124px;margin-bottom:15px;transform:rotate(-6deg);animation:reveal-pop .8s cubic-bezier(.2,.8,.2,1) both;perspective:1000px}.reveal-card-wrap .playing-card,.reveal-card-wrap .fantasy-card{width:100%;animation:none;box-shadow:0 12px 28px #5d3a922e;border-radius:10px}.reveal-card-wrap .card-corner{font-size:19px;top:8px;left:9px}.reveal-card-wrap .card-corner.bottom{top:auto;left:auto;right:9px;bottom:8px}.reveal-card-wrap .pip{font-size:25px}.reveal-card-wrap .ace-pip{font-size:48px}.reveal-card-wrap .face-crown{font-size:30px}.reveal-card-wrap .face-letter{font-size:36px}.reveal-card-wrap .face-suit{font-size:22px}.reveal-card-wrap .fantasy-name{font-size:12px;padding:10px 3px}.reveal-kicker{font-size:9px;letter-spacing:2px;color:#9d85b6;font-weight:700;margin:4px 0 7px}.reveal h3{font:750 25px/1.5 var(--heading);letter-spacing:-.5px;margin:0 0 6px}.reveal p{font-size:12px;line-height:1.7;color:#9b8ba8;margin:0 0 18px}.reveal .primary-button{padding:11px 24px}.reveal-another{font-size:10px;margin-top:14px;color:#998ba5;text-decoration:underline;text-underline-offset:4px}.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,15px);background:#382a4e;color:white;border:1px solid #ffffff26;border-radius:12px;padding:12px 20px;font-size:12px;box-shadow:0 4px 25px #382a4e26;opacity:0;pointer-events:none;transition:all .3s;z-index:20;text-align:center;max-width:90%;width:max-content}.toast.visible{transform:translate(-50%,0);opacity:1}dialog{border:1px solid #e2d8ed;border-radius:23px;max-width:460px;width:calc(100% - 32px);padding:32px;background:#fffdf8;box-shadow:0 30px 100px #2f1d5b33;color:var(--ink)}dialog::backdrop{background:#30243d66;backdrop-filter:blur(5px)}.dialog-close{position:absolute;inset-inline-end:14px;top:14px;font-size:25px}.dialog-star{color:var(--purple);background:#f0e9fa;display:grid;place-items:center;width:49px;height:49px;border-radius:15px;font-size:33px}dialog h2{font:750 25px/1.5 var(--heading);letter-spacing:-.7px;margin:18px 0 7px}dialog p,dialog li{font-size:13px;line-height:1.8;color:#8c8096}dialog ol{padding-inline-start:20px}dialog li{padding-inline-start:6px;margin-bottom:12px}dialog li::marker{color:var(--purple);font-weight:700}.dialog-tip{background:#f1edf7;border-radius:9px;padding:12px;font-size:11px}dialog .primary-button{width:100%;margin-top:10px}.confetti-container{position:fixed;inset:0;pointer-events:none;z-index:30;overflow:hidden}.confetti-bit{position:absolute;left:var(--x);top:-15px;width:var(--size);height:calc(var(--size)*.55);background:var(--color);border-radius:2px;animation:confetti-fall var(--duration) linear var(--delay) both}
+html[dir=rtl]{--font:'Noto Sans Arabic',sans-serif;--heading:'Noto Sans Arabic',sans-serif}html[dir=rtl] .intro h1{font-size:45px;line-height:1.5;letter-spacing:-1.8px}html[dir=rtl] .eyebrow,html[dir=rtl] .section-eyebrow{letter-spacing:0}html[dir=rtl] .intro-description{line-height:1.9}html[dir=rtl] .intro-tags{font-size:9px}html[dir=rtl] .game-heading h2{font-size:24px;letter-spacing:-.5px}html[dir=rtl] .new-badge{letter-spacing:0}html[dir=rtl] .title-spark{font-family:'DM Sans',sans-serif}html[dir=rtl] .row-arrow{transform:rotate(180deg)}html[dir=rtl] .step-connector{transform:scaleX(-1)}html[dir=rtl] .world-button{font-size:11px}html[dir=rtl] .privacy-note{font-size:9px}html[dir=rtl] .brand{font-family:'Manrope',sans-serif}html[dir=rtl] .playing-card{font-family:'DM Sans',sans-serif}
+@keyframes deal-in{from{opacity:0;transform:translateY(10px) rotate(-3deg)}to{opacity:1;transform:translateY(0) rotate(0)}}@keyframes gather{to{opacity:0;transform:translateY(-8px) rotate(4deg) scale(.94)}}@keyframes reveal-pop{from{opacity:0;transform:translateY(20px) rotateY(80deg) rotate(-12deg) scale(.7)}to{opacity:1;transform:translateY(0) rotateY(0) rotate(-6deg) scale(1)}}@keyframes pulse{50%{transform:scale(1.15) rotate(15deg)}}@keyframes confetti-fall{to{transform:translate3d(var(--drift),110vh,0) rotate(660deg)}}
+@media(min-width:1400px){.intro{min-height:312px}.intro h1{font-size:56px}.game-content{padding:29px 30px 20px}}
+@media(max-width:950px){.card-row{grid-template-columns:28px minmax(0,1fr) 116px;gap:9px;padding:10px}.row-cards{gap:7px}.choose-row{font-size:9px;gap:5px}.world-toolbar{padding:12px 20px}.game-content{padding:23px 20px 16px;min-height:0}.game-heading h2{font-size:22px}.playing-card,.fantasy-card{border-radius:5px}.intro h1{font-size:45px}.intro{padding-inline:8px}.hero-art{transform:scale(.9)}.steps-strip{padding-inline:10px}.mini-step{gap:8px}.step-connector{font-size:22px}.mini-step h3{font-size:9px}.mini-step p{font-size:8px}.reveal{min-height:370px}}
+@media(max-width:700px){.site-header{padding:20px 21px 15px}.brand{font-size:23px}.brand-mark{width:32px;height:32px;font-size:28px;border-radius:9px}.header-actions{gap:15px}.plain-button{font-size:10px}.language-button{font-size:11px}.header-divider{display:none}main{padding:0 15px}.intro{grid-template-columns:1.35fr .8fr;padding:25px 6px 28px;min-height:250px}.intro h1{font-size:35px;letter-spacing:-1.6px;line-height:1.2;margin:13px 0}.eyebrow{font-size:8px;letter-spacing:1.2px}.intro-description{font-size:11px}.intro-tags{font-size:8px;gap:7px;flex-wrap:wrap}.intro-tags .tag-separator,.intro-tags>span:last-child{display:none}.title-spark{font-size:25px;margin-inline-start:7px}.hero-art{transform:scale(.65);transform-origin:center;width:290px;margin-inline:-75px}.hero-card-back{left:55px}.hero-card-front{left:127px}.art-star-two{right:4px}.magic-note{left:81px}.world-toolbar{padding:11px 13px;gap:8px}.world-switch{gap:0;padding:3px;border-radius:8px}.world-button{font-size:10px;padding:8px 10px;gap:5px}.new-badge{display:none}.world-symbol{font-size:16px}.game-tools{gap:8px}.reset-button{font-size:10px}.reset-button svg{width:13px}.game-content{padding:21px 13px 13px}.game-heading{gap:10px;margin-bottom:19px}.game-heading h2{font-size:21px;letter-spacing:-.7px}.game-heading p{font-size:10px;max-width:300px}.section-eyebrow{font-size:7px;letter-spacing:1.2px}.progress{gap:4px}.progress-step{width:21px;height:21px;font-size:9px}.progress-line{width:7px}.progress-spark{font-size:18px;margin-inline-start:0}.card-row{grid-template-columns:24px minmax(0,1fr);gap:7px;padding:11px 9px 9px}.row-cards{gap:6px}.playing-card,.fantasy-card{aspect-ratio:5/7}.choose-row,.waiting-label{grid-column:2;font-size:10px;padding:7px;margin-top:0;min-height:31px}.choose-row .row-arrow{font-size:14px}.waiting-label{display:none}.row-marker{align-self:center}.row-marker small{font-size:6px}.row-marker strong{font-size:16px}.card-corner{font-size:clamp(8px,1.9vw,12px);top:4px;left:4px}.card-corner.bottom{bottom:4px;right:4px}.card-corner small{margin-top:1px}.card-pips{inset:24% 24%}.pip{font-size:clamp(10px,2.6vw,16px)}.ace-pip{font-size:clamp(22px,5vw,35px)}.face-crown{font-size:clamp(13px,3vw,20px)}.face-letter{font-size:clamp(15px,3.5vw,26px)}.face-suit{font-size:clamp(10px,2.5vw,18px)}.fantasy-card{border-width:2px}.fantasy-name{font-size:clamp(5px,1.3vw,8px);min-height:13px}.game-bottom{padding-top:16px;min-height:59px}.primary-button{font-size:11px;padding:11px 15px;gap:18px}.privacy-note{font-size:9px;max-width:220px;gap:5px}.privacy-note>span:first-child{font-size:17px}.game-footer{padding:12px 17px;font-size:8px}.footer-card-icons{font-size:10px;letter-spacing:3px}.steps-strip{padding:25px 9px;gap:10px;align-items:flex-start}.mini-step{flex-direction:column;align-items:flex-start;gap:9px;flex:1}.step-number{width:30px;height:30px;font-size:9px;border-radius:9px}.mini-step h3{font-size:9px;line-height:1.4;max-width:110px}.mini-step p{font-size:8px;line-height:1.6;max-width:100px}.step-connector{margin-top:1px;font-size:20px}.site-footer{padding:16px 22px 25px;gap:20px;font-size:8px}.footer-love{max-width:130px;text-align:end}.reveal{min-height:394px}.reveal h3{font-size:22px}html[dir=rtl] .intro h1{font-size:31px;line-height:1.5}html[dir=rtl] .intro-description{font-size:10px}html[dir=rtl] .game-heading h2{font-size:20px}html[dir=rtl] .world-button{font-size:9px}html[dir=rtl] .game-heading p{font-size:9px}html[dir=rtl] .privacy-note{font-size:8px}}
+@media(max-width:400px){.site-header{padding-inline:16px}.how-button{font-size:0;gap:0}.help-icon{font-size:11px;width:20px;height:20px}.intro{grid-template-columns:1.4fr .6fr;min-height:237px;padding-top:20px}.intro h1{font-size:31px}.intro-description{font-size:10px}.hero-art{transform:scale(.51);margin-inline:-95px}.title-spark{font-size:21px;margin-inline-start:5px}.game-shell{border-radius:15px}.world-toolbar{padding:10px}.world-button{padding:7px 8px;font-size:9px}.game-tools{gap:4px}.icon-button{width:25px;height:25px}.reset-button{font-size:9px}.game-content{padding:18px 10px 10px}.game-heading h2{font-size:19px}.progress-step{width:19px;height:19px}.progress{gap:3px}.progress-line{width:5px}.progress-spark{display:none}.game-heading p{font-size:9px}.row-cards{gap:4px}.card-row{padding:9px 7px 7px;grid-template-columns:20px minmax(0,1fr);gap:6px}.card-corner{font-size:8px;left:3px;top:3px}.card-corner.bottom{right:3px;bottom:3px}.playing-card{border-radius:4px}.card-pips{inset:25% 24%}.pip{font-size:9px}.ace-pip{font-size:22px}.face-art{inset:19% 20%}.face-letter{font-size:17px}.face-crown{font-size:13px}.face-suit{font-size:10px}.face-art:before,.face-art:after{display:none}.fantasy-name{font-size:5px}.game-bottom{gap:8px}.privacy-note{font-size:8px;max-width:150px}.primary-button{font-size:10px;padding:11px 13px;gap:13px}.game-footer{font-size:7px;padding-inline:12px}.steps-strip{padding-inline:4px}.mini-step h3{font-size:8px}.mini-step p{font-size:7px}.step-connector{font-size:17px}html[dir=rtl] .intro h1{font-size:27px}html[dir=rtl] .intro-description{font-size:9px}html[dir=rtl] .game-heading h2{font-size:17px}html[dir=rtl] .world-button{font-size:8px}html[dir=rtl] .reset-button{font-size:8px}html[dir=rtl] .privacy-note{font-size:7px}}
+.reveal h3:focus{outline:none}.game-shell{scroll-margin-top:15px}.intro{overflow:hidden}
+@media(max-width:700px){.title-spark{display:none}.hero-art{height:190px}.choose-row{font-size:11px;min-height:36px}.game-heading p{font-size:11px}.game-bottom .privacy-note{font-size:10px}.world-button{font-size:11px}.card-pips{inset:25% 27%}.pip{font-size:clamp(8px,2.15vw,14px)}.game-heading p{max-width:260px}}
+@media(max-width:400px){.world-button{font-size:10px}.game-heading p{font-size:10px}.game-bottom .privacy-note{font-size:9px}.choose-row{font-size:10px}.card-pips{inset:25% 28%}.pip{font-size:8px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.confetti-container{display:none}}
+
+/* Readable type in both languages, with room for the larger controls. */
+body{font-size:16px}
+.plain-button,.language-button{font-size:15px;padding-block:10px}
+.help-icon{width:21px;height:21px;font-size:14px;flex-shrink:0}
+.eyebrow{font-size:13px;letter-spacing:1.7px}
+.intro h1{font-size:58px}
+.intro-description{font-size:16px;line-height:1.8}
+.intro-tags{font-size:13px;line-height:1.7;flex-wrap:wrap}
+.magic-note{font-size:12px}
+.world-toolbar{gap:18px}
+.world-switch{min-width:0}
+.world-button{font-size:15px;padding:10px 16px}
+.new-badge{font-size:10px}
+.reset-button{font-size:14px;line-height:1.6}
+.icon-button{width:36px;height:36px;flex-shrink:0}
+.icon-button svg{width:21px;height:21px}
+.section-eyebrow{font-size:11px;line-height:1.7;letter-spacing:1.4px}
+.game-heading h2{font-size:30px;line-height:1.5}
+.game-heading p{font-size:16px;line-height:1.8;color:#746c7d}
+.progress{flex-shrink:0}
+.progress-step{width:31px;height:31px;font-size:14px}
+.progress-line{width:18px}
+.card-row{grid-template-columns:44px minmax(0,1fr) 170px}
+.row-marker small{font-size:11px;letter-spacing:.5px}
+.row-marker strong{font-size:24px}
+.card-corner{font-size:clamp(12px,1.2vw,16px)}
+.choose-row{font-size:14px;min-height:48px;padding:12px 9px}
+.waiting-label{font-size:13px;line-height:1.7}
+.fantasy-name{font-size:clamp(10px,.9vw,12px);line-height:1.3;min-height:24px;padding:3px 1px}
+.game-bottom{padding-top:20px;min-height:76px}
+.privacy-note{font-size:14px;line-height:1.8;color:#83768e}
+.primary-button{font-size:16px;padding:13px 22px;min-height:50px}
+.round-pill{font-size:14px;padding:9px 15px}
+.game-footer{font-size:13px;line-height:1.7;color:#887c90}
+.footer-card-icons{font-size:16px;white-space:nowrap}
+.step-number{width:40px;height:40px;font-size:14px;flex-shrink:0}
+.mini-step h3{font-size:15px;line-height:1.6}
+.mini-step p{font-size:14px;line-height:1.7;color:#84778d}
+.site-footer{font-size:13px;line-height:1.8;color:#887c90}
+.reveal-kicker{font-size:13px;line-height:1.8}
+.reveal h3{font-size:32px}
+.reveal p{font-size:16px;line-height:1.8}
+.reveal-another{font-size:14px;padding:8px}
+.reveal-card-wrap{width:145px}
+.reveal-card-wrap .fantasy-name{font-size:15px}
+.toast{font-size:15px;line-height:1.7}
+dialog{max-width:540px}
+dialog h2{font-size:30px}
+dialog p,dialog li{font-size:16px;line-height:1.9;color:#74677f}
+dialog .dialog-tip{font-size:14px}
+html[dir=rtl] .intro h1{font-size:50px;line-height:1.55}
+html[dir=rtl] .intro-description{font-size:16px;line-height:1.95}
+html[dir=rtl] .intro-tags{font-size:13px}
+html[dir=rtl] .game-heading h2{font-size:29px}
+html[dir=rtl] .game-heading p{font-size:16px;line-height:1.95}
+html[dir=rtl] .world-button{font-size:15px}
+html[dir=rtl] .privacy-note{font-size:14px}
+
+@media(min-width:1400px){.intro h1{font-size:62px}}
+@media(max-width:950px){
+  .intro h1{font-size:50px}
+  .card-row{grid-template-columns:38px minmax(0,1fr) 148px;gap:10px}
+  .choose-row{font-size:14px}
+  .row-cards{gap:7px}
+  .world-button{padding-inline:13px}
+  .game-heading{align-items:flex-start;flex-wrap:wrap}
+  .game-heading>div:first-child{flex:1 1 340px}
+  .game-heading h2{font-size:28px}
+  .mini-step{align-items:flex-start}
+  .mini-step h3{font-size:14px}
+  .mini-step p{font-size:13px}
+  .steps-strip{gap:12px}
+  .step-connector{font-size:22px}
+  html[dir=rtl] .intro h1{font-size:43px}
+  html[dir=rtl] .game-heading h2{font-size:27px}
+}
+@media(max-width:700px){
+  .site-header{padding-inline:18px;gap:15px;flex-wrap:wrap}
+  .header-actions{gap:15px}
+  .plain-button,.language-button{font-size:14px}
+  .intro{grid-template-columns:1.5fr .6fr;padding-block:25px 30px;min-height:270px}
+  .intro h1{font-size:39px;line-height:1.22;letter-spacing:-1.7px}
+  .eyebrow{font-size:12px;letter-spacing:1px}
+  .intro-description{font-size:15px;line-height:1.8}
+  .intro-tags{font-size:12px}
+  .hero-art{transform:scale(.56);margin-inline:-95px}
+  .world-toolbar{padding:12px;gap:12px;flex-wrap:wrap}
+  .world-button{font-size:14px;padding:10px 12px;gap:6px}
+  .game-tools{gap:10px;margin-inline-start:auto}
+  .reset-button{font-size:14px}
+  .game-content{padding:21px 13px 16px}
+  .game-heading{gap:17px;margin-bottom:20px}
+  .game-heading>div:first-child{flex-basis:100%}
+  .game-heading h2{font-size:26px;letter-spacing:-.6px;margin-block:6px 4px}
+  .game-heading p{font-size:15px;line-height:1.8;max-width:none}
+  .section-eyebrow{font-size:11px;letter-spacing:1px}
+  .progress{gap:7px;padding-inline:4px}
+  .progress-step{width:29px;height:29px;font-size:13px}
+  .progress-line{width:17px}
+  .progress-spark{display:inline;font-size:22px}
+  .card-row{grid-template-columns:29px minmax(0,1fr);gap:8px;padding:12px 9px 10px}
+  .row-cards{gap:5px}
+  .row-marker small{font-size:10px}
+  .row-marker strong{font-size:21px}
+  .choose-row{grid-column:2;font-size:14px;min-height:44px;padding:9px;gap:9px}
+  .choose-row .row-arrow{font-size:18px}
+  .card-corner{font-size:clamp(9px,2.2vw,14px);left:4px;top:4px}
+  .card-corner.bottom{right:4px;bottom:4px}
+  .fantasy-card{aspect-ratio:auto;min-height:0}
+  .fantasy-name{font-size:clamp(8px,1.7vw,11px);min-height:26px;padding:3px 1px;overflow-wrap:anywhere}
+  .game-bottom{flex-wrap:wrap;gap:14px;align-items:center;padding-top:19px}
+  .game-bottom .privacy-note{font-size:13px;max-width:none;flex:1 1 200px}
+  .primary-button{font-size:15px;padding:12px 18px;gap:18px;min-height:48px}
+  .round-pill{font-size:13px}
+  .game-footer{font-size:12px;line-height:1.8;padding:12px 15px;gap:9px}
+  .footer-card-icons{font-size:14px;letter-spacing:2px}
+  .steps-strip{padding:25px 7px;gap:12px}
+  .mini-step{gap:11px;min-width:0}
+  .step-number{width:35px;height:35px;font-size:13px}
+  .mini-step h3{font-size:13px;line-height:1.6;max-width:none}
+  .mini-step p{font-size:12px;line-height:1.8;max-width:none}
+  .step-connector{display:none}
+  .site-footer{font-size:12px;padding-inline:19px;gap:20px;flex-wrap:wrap}
+  .footer-love{max-width:none}
+  .reveal h3{font-size:28px}
+  .reveal p{font-size:15px}
+  .reveal-kicker{font-size:12px}
+  .reveal-another{font-size:14px}
+  dialog{padding:27px}
+  dialog h2{font-size:27px}
+  dialog p,dialog li{font-size:15px}
+  html[dir=rtl] .intro h1{font-size:35px;line-height:1.55;letter-spacing:-.8px}
+  html[dir=rtl] .intro-description{font-size:15px}
+  html[dir=rtl] .intro-tags{font-size:12px}
+  html[dir=rtl] .game-heading h2{font-size:25px}
+  html[dir=rtl] .game-heading p{font-size:15px;line-height:1.95}
+  html[dir=rtl] .world-button{font-size:14px}
+  html[dir=rtl] .reset-button{font-size:14px}
+  html[dir=rtl] .privacy-note,html[dir=rtl] .game-bottom .privacy-note{font-size:13px}
+}
+@media(max-width:520px){
+  .site-header{row-gap:7px}
+  .brand{font-size:24px}
+  .header-actions{gap:13px;margin-inline-start:auto}
+  .intro{display:block;min-height:0;padding:23px 6px 30px}
+  .intro h1{font-size:40px;line-height:1.2}
+  .hero-art{display:none}
+  .intro-description{max-width:360px}
+  .world-switch{width:100%;flex-wrap:wrap}
+  .world-button{flex:1;padding:10px 7px;white-space:normal;line-height:1.6}
+  .game-tools{justify-content:flex-end}
+  .card-row{grid-template-columns:24px minmax(0,1fr);gap:6px;padding-inline:7px}
+  .row-cards{gap:4px}
+  .row-marker small{font-size:9px}
+  .row-marker strong{font-size:20px}
+  .game-bottom .privacy-note{flex-basis:100%}
+  .game-bottom .primary-button{width:100%;justify-content:space-between}
+  .game-footer{flex-wrap:wrap}
+  .footer-card-icons{margin-inline-start:0}
+  .steps-strip{flex-direction:column;gap:19px;padding:26px 8px}
+  .mini-step{flex-direction:row;align-items:center;gap:13px}
+  .mini-step h3{font-size:14px;margin-bottom:2px}
+  .mini-step p{font-size:13px}
+  .site-footer{gap:9px}
+  html[dir=rtl] .intro h1{font-size:36px}
+}
+@media(max-width:400px){
+  .how-button{font-size:13px;gap:6px}
+  .help-icon{font-size:13px;width:20px;height:20px}
+  .plain-button,.language-button{font-size:13px}
+  .intro h1{font-size:37px}
+  .game-heading h2{font-size:24px}
+  .game-heading p{font-size:14px}
+  .card-corner{font-size:9px;left:3px;top:3px}
+  .card-corner.bottom{right:3px;bottom:3px}
+  .fantasy-name{font-size:8px;min-height:26px}
+  .choose-row{font-size:14px}
+  .game-footer{font-size:12px}
+  html[dir=rtl] .intro h1{font-size:33px}
+  html[dir=rtl] .game-heading h2{font-size:23px}
+  html[dir=rtl] .game-heading p{font-size:14px}
+}

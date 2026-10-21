@@ -1,0 +1,11 @@
+{
+  "name": "twenty-one-little-wonder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A bilingual 21-card magic game with playing cards and fantasy friends.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "test": "node --test tests/game.test.mjs"
+  }
+}
